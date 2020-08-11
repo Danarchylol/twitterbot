@@ -10,10 +10,10 @@ from flask import Flask
 
 print("this is my twitter bot \n ")
 
-CONSUMER_KEY = 'gkkD0GY71y5JYdkQtBAuW7vW6'
-CONSUMER_SECRET = 'Ne9o0hPVabYkoYgqo4u6O62TWXpkzdHcUNhaINdT5QqOQMNuDJ'
-ACCESS_KEY = '1216320538181885957-SM0m6Vj0lc8OrUmTjVI8etHcCzPfoq'
-ACCESS_SECRET = 'aO1SdNOXASRFmSdz9r6B6RdlvOc5xeEM0PwZCkDAuqZ7y'
+CONSUMER_KEY = 'x'
+CONSUMER_SECRET = 'y'
+ACCESS_KEY = 'y'
+ACCESS_SECRET = 'a'
 
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
